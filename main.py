@@ -17,8 +17,7 @@ class EmployeeManagementSystem:
 
     def setup_ui(self):
         # Title
-        title = tk.Label(self.root, text="Employee Management System", font=("Helvetica", 24), bg="#000000",
-                         fg="#f44336")
+        title = tk.Label(self.root, text="Employee Management System", font=("Helvetica", 24), bg="#000000",fg="#f44336")
         title.pack(pady=20)
 
         # Frame for Form
